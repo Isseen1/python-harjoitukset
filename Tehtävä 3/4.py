@@ -1,4 +1,5 @@
 vuosi = int(input("Anna vuosiluku: "))
+
 if vuosi % 400 == 0:
     print(vuosi, "on karkausvuosi")
     
