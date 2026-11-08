@@ -1,0 +1,10 @@
+def poista_parittomat(luvut):
+    parilliset = []
+    for luku in luvut:
+        if luku % 2 == 0:
+            parilliset.append(luku)
+    return parilliset
+alkuperainen = [1, 2, 3, 4, 5, 6]
+karsittu = poista_parittomat(alkuperainen)
+print("Alkuperäinen lista:", alkuperainen)
+print("Karsittu lista:", karsittu)
